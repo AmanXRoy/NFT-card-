@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+
+
+
+:root{
+	--primarycolor1: hsl(215, 51%, 70%);
+	--primarycolor2: hsl(178, 100%, 50%);
+	--mainbg: hsl(217, 54%, 11%);
+	--cardbg: hsl(216, 50%, 16%);
+	--white: hsl(0, 0%, 100%);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Outfit', sans-serif;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--mainbg);
+	height: 100vh;
+}
+
+.card{
+	background: var(--cardbg);
+	border-radius: 10px;
+	padding: 2rem;
+}
+
+.card--img{
+	height: 280px;
+	width: 280px;
+	border-radius: 10px;
+}
+
+.h1{
+	font-weight: 600;
+	margin: 1rem 0;
+	color: var(--white);
+	font-size: 1.5rem;
+}
+
+.p1{
+	color: var(--primarycolor1);
+	line-height: 30px;
+	font-weight: 400;
+}
+
+.p2{
+	color: var(--primarycolor1);
+	font-weight: 400;
+
+}
+
+.items{
+	margin: 1.3rem 0;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.items .span1{
+	color: var(--primarycolor2);
+	margin: 0 2rem 0 0.5rem;
+}
+.items .svg2{
+	color: var(--white);
+	margin: 0 0.4rem 0 4rem;
+}
+.items .span2{
+	color: var(--white);
+}
+hr{
+	margin: 1rem 0 0 0;
+	opacity: 0.5;
+}
+.avater{
+	display: flex;
+	align-items: center;
+}
+
+.avater img{
+	margin: 1rem 0;
+	height: 40px;
+	width: 40px;
+	border: 1px solid var(--white) ;
+	border-radius: 50%;
+}
+.avater span{
+	margin: 0 0 0 0.9rem;
+	color: var(--primarycolor1);
+	opacity: 0.6;
+}
+.avater p{
+	color: var(--white);
+}
